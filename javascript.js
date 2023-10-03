@@ -34,3 +34,17 @@ button.addEventListener("click", () => {
   <div class="alert alert-info" role="alert">
 Abbiamo ${counterCards} viaggi disponibili  </div> `;
 });
+
+const cards = Array.from(document.getElementsByClassName("card"));
+
+console.log(cards);
+
+const deleteAll = function () {
+  cards.forEach((card) => {
+    card.classList.add("d-none");
+  });
+};
+
+const buttonDelete = document.querySelector("#deleteTrips");
+console.log(buttonDelete);
+buttonDelete.addEventListener("click", deleteAll);
