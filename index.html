@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel's agency</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="bg-secondary-subtle">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary mx-5 bg-secondary-subtle w-75 mx-auto fs-7"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://placehold.co/100x50/blue/white"
+              class="rounded-5"
+              alt="foto-agenzia"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#saldi">Saldi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#welcome"> Welcome Summer </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#last-minute">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container w-75 mt-4">
+        <!-- Inizio container -->
+        <div class="row mx-auto">
+          <div
+            class="col bg-secondary-subtle d-flex flex-column align-items-center align-items-lg-start p-5 rounded-3 mb-4"
+          >
+            <h1 class="fs-1">Vola Alto</h1>
+            <hr class="w-100" />
+            <p class="text-center fst-italic fs-5 mb-5">
+              Parti alla scoperta dei posti più belli!
+            </p>
+            <button class="btn btn-info text-white w-auto px-5 fw-bold">
+              Andiamo!
+            </button>
+          </div>
+        </div>
+        <div
+          class="row d-flex justify-content-between align-items-center justify-content-around"
+        >
+          <div class="col">
+            <p class="fs-3">Saldi</p>
+          </div>
+          <div class="col text-end">
+            <p class="fs-6 text-primary">Nascondi sezione</p>
+          </div>
+        </div>
+        <!-- Row di Saldi e nascondi azione -->
+        <div
+          id="saldi"
+          class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 mb-5"
+        >
+          <div class="col border-info">
+            <div class="card border-info border-2">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Malibu</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-info border-2">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Madagascar</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-info border-2">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kenya</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col d-md-none d-lg-block">
+            <div class="card border-info border-2">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Giappone</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fine Sezione Saldi -->
+        <!-- Row di welcome summer -->
+        <div
+          class="row d-flex justify-content-between align-items-center justify-content-around"
+        >
+          <div class="col">
+            <p class="fs-3 flex-grow-1">Welcome Summer</p>
+          </div>
+          <div class="col text-end">
+            <p class="fs-6 text-primary">Nascondi sezione</p>
+          </div>
+        </div>
+        <!-- Fine row welcome summer -->
+        <div id="welcome" class="row row-cols-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Caraibi</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam neque maiores distinctio ipsam a explicabo et.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mozambico</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam neque maiores distinctio ipsam a explicabo et.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Spagna</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam neque maiores distinctio ipsam a explicabo et.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Francia</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam neque maiores distinctio ipsam a explicabo et.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Svezia</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam neque maiores distinctio ipsam a explicabo et.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://placehold.co/600x400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Caraibi</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam neque maiores distinctio ipsam a explicabo et.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button id="how-many" class="btn btn-success mt-5 mb-3">
+            Quanti viaggi abbiamo?
+          </button>
+          <div id="text-alert"></div>
+        </div>
+
+        <!-- Offerta del giorno -->
+        <h3 class="mt-5 mb-4 d-none d-md-block">Offerta del giorno</h3>
+
+        <div class="row d-none d-md-block d-flex">
+          <div class="col d-flex">
+            <div class="me-3 w-75">
+              <img
+                src="https://placehold.co/600x400"
+                class="rounded w-100"
+                alt="foto"
+              />
+            </div>
+            <div>
+              <p class="fs-1 mb-0">Fushifaru Maldives</p>
+              <p class="mb-2 font-monospace">15.01.2021-31.01.2021</p>
+              <p class="fs-5">
+                Ville a partire da 500 $, non fartele sfuggire!
+              </p>
+
+              <span class="badge bg-dark rounded-5">Best offer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Last Minute -->
+        <h3 class="mt-5 mb-4">Last Minute</h3>
+        <div
+          id="last-minute"
+          class="row row-cols-2 row-cols-lg-6 row-cols-md-3"
+        >
+          <div class="col">
+            <img
+              src="https://placehold.co/600x400"
+              class="w-100 rounded mb-3"
+              alt="foto"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://placehold.co/600x400"
+              class="w-100 rounded mb-3"
+              alt="foto"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://placehold.co/600x400"
+              class="w-100 rounded mb-3"
+              alt="foto"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://placehold.co/600x400"
+              class="w-100 rounded mb-3"
+              alt="foto"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://placehold.co/600x400"
+              class="w-100 rounded mb-3"
+              alt="foto"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://placehold.co/600x400"
+              class="w-100 rounded mb-3"
+              alt="foto"
+            />
+          </div>
+        </div>
+        <!-- Dicono di noi -->
+        <h3 class="text-center mt-4 mb-3">Dicono di noi</h3>
+        <div id="reviews" class="row row-cols-1 gy-4">
+          <div class="col d-flex justify-content-evenly">
+            <div class="rounded-circle me-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/af/Utente_%28prova%29.svg"
+                alt="utente"
+                class="w-100 rounded-circle"
+              />
+            </div>
+            <div>
+              <h5>Username</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita ducimus placeat qui voluptate eaque laboriosam rem
+                accusamus, totam cumque, hic id, quod saepe asperiores sapiente.
+                A ex optio fugit? A. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Optio sequi architecto libero similique
+                praesentium! Dignissimos iusto error saepe voluptate fuga ipsum
+                eum laudantium a culpa cupiditate, quasi eligendi mollitia
+                accusantium!
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-evenly">
+            <div class="rounded-circle me-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/af/Utente_%28prova%29.svg"
+                alt="utente"
+                class="w-100 rounded-circle"
+              />
+            </div>
+            <div>
+              <h5>Username</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita ducimus placeat qui voluptate eaque laboriosam rem
+                accusamus, totam cumque, hic id, quod saepe asperiores sapiente.
+                A ex optio fugit? A. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Optio sequi architecto libero similique
+                praesentium! Dignissimos iusto error saepe voluptate fuga ipsum
+                eum laudantium a culpa cupiditate, quasi eligendi mollitia
+                accusantium!
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-evenly">
+            <div class="rounded-circle me-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/af/Utente_%28prova%29.svg"
+                alt="utente"
+                class="w-100 rounded-circle"
+              />
+            </div>
+            <div class="mb-5">
+              <h5>Username</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita ducimus placeat qui voluptate eaque laboriosam rem
+                accusamus, totam cumque, hic id, quod saepe asperiores sapiente.
+                A ex optio fugit? A. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Optio sequi architecto libero similique
+                praesentium! Dignissimos iusto error saepe voluptate fuga ipsum
+                eum laudantium a culpa cupiditate, quasi eligendi mollitia
+                accusantium!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Fine container -->
+      </div>
+    </main>
+    <footer
+      class="bg-dark p-5 text-center d-flex justify-content-center pb-lg-0"
+    >
+      <div class="row">
+        <div class="col">
+          <button class="btn btn-outline-secondary mb-4">Contattaci</button>
+          <p class="text-light">
+            © 2021 Kalina Travel LTD. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
